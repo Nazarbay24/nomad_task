@@ -1,6 +1,7 @@
 Запуск
 
 - composer install --ignore-platform-reqs
+- создать .env от .env.example
 - ./vendor/bin/sail up
 - ./vendor/bin/sail php artisan key:generate
 - ./vendor/bin/sail php artisan migrate
